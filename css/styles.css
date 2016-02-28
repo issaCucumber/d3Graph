@@ -1,0 +1,105 @@
+@CHARSET "UTF-8";
+
+.axis path{
+	fill: none;
+}
+.axis line {
+  fill: none;
+  stroke: #a6a6a6;
+  shape-rendering: crispEdges;
+}
+
+.axis .tick text{
+  fill: #a6a6a6;
+  font: 12px sans-serif;
+}
+
+.axis.values .tick text {
+  font: 14px sans-serif;
+  fill: #666666;
+}
+
+.axis.values path,
+.axis.values line {
+  stroke: none;
+}
+
+#activity-graph-details{
+	display:none;
+}
+
+rect.navigate{
+	cursor:pointer;
+}
+
+#user-date-input{
+	margin-top: 40px;
+}
+
+body{
+	background: none;
+}
+
+rect.subbar{
+	display:none;
+}
+
+div.mode{
+	width: 50px;
+    height: 50px;
+    display:none;
+}
+
+div#user-date-input p{
+	text-align: right;
+    margin-top: 5px;
+}
+
+div.car{
+	background: url(../images/icons/Car.png) no-repeat;
+}
+
+div.home{
+	background: url(../images/icons/Home.png) no-repeat;
+}
+
+div.transit{
+	background: url(../images/icons/Transit.png) no-repeat;
+}
+
+div.walk{
+	background: url(../images/icons/Walk.png) no-repeat;
+}
+
+div.train{
+	background: url(../images/icons/Train.png) no-repeat;
+}
+
+div.bus{
+	background: url(../images/icons/Bus.png) no-repeat;
+}
+
+div.dropoff{
+	background: url(../images/icons/Dropoff.png) no-repeat;
+}	
+
+div.work{
+	background: url(../images/icons/Work.png) no-repeat;
+}
+
+div.others{
+	background: url(../images/icons/NoData.png) no-repeat;
+}
+
+ul.legend-list{
+	list-style-type: none;
+}
+
+ul.legend-list li{
+	float: right;
+    text-align: center;
+    padding: 10px 30px;
+    margin: 10px;
+    font-weight: bold;
+    color: #737373;
+}
